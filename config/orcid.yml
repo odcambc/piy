@@ -1,15 +1,15 @@
 # Default endpoint URLs for the ORCID OAuth API
 production:
   site: https://jopiy.cbmacdo.com/
-  authorize_url: http://orcid.org/oauth/authorize?show_login=true
-  token_url: http://pub.orcid.org/oauth/token
+  authorize_url: https://orcid.org/oauth/authorize
+  token_url: https://orcid.org/oauth/token
   client_id: <%= ENV["ORCID_KEY"] %>
   client_secret: <%= ENV["ORCID_SECRET"] %>
 
 development:
-  site: https://jopiy-8e1237612045.herokuapp.com:3000/
-  authorize_url: http://orcid.org/oauth/authorize#show_login
-  token_url: http://pub.orcid.org/oauth/token
+  site: https://jopiy.cbmacdo.com/
+  authorize_url: https://orcid.org/oauth/authorize
+  token_url: https://orcid.org/oauth/token
   client_id: <%= ENV["ORCID_KEY"] %>
   client_secret: <%= ENV["ORCID_SECRET"] %>
 
@@ -17,5 +17,5 @@ test:
   site: https://jopiy-8e1237612045.herokuapp.com:3000/
   authorize_url: https://orcid.org/oauth/authorize#show_login
   token_url: https://pub.orcid.org/oauth/token
-  client_id:
-  client_secret:
+  client_id: <%= ENV["ORCID_KEY"] %>
+  client_secret: <%= ENV["ORCID_SECRET"] %>
