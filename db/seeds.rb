@@ -354,3 +354,24 @@ Editor.create(
     science-focused Python packages.
   STR
 )
+
+Paper.create(
+  title: "Astronomical Data Analysis Software and Systems",
+  state: "submitted",
+  repository_url: "https://github.com/quantum-exeter/SpiDy.jl",
+  archive_doi: "10.21105/joss.00001",
+  sha: "123456",
+  body: "This is the body of the paper",
+  track_id: 1,
+  user_id: 1,
+  created_at: Time.now,
+  updated_at: Time.now,
+  review_issue_id: 1,
+  software_version: "1.0",
+  authors: "Arfon Smith, Lorena A Barba, George Githinji",
+  citation_string: "Arfon Smith, Lorena A Barba, George Githinji (2016). Astronomical Data Analysis Software and Systems. Journal of Open Source Software, 1(1), 1.",
+  submission_kind: "new",
+  kind: "paper"
+  
+
+)
