@@ -18,8 +18,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'JOSS'
-copyright = '2023, Open Journals'
+project = 'JOPIY'
+copyright = '2024, Open Journals'
 author = 'Arfon Smith & Open Journals community'
 
 # The short X.Y version
