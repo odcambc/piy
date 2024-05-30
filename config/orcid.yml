@@ -1,6 +1,6 @@
 # Default endpoint URLs for the ORCID OAuth API
 production:
-  site: https://jopiy-8e1237612045.herokuapp.com:3000/
+  site: https://jopiy.cbmacdo.com/
   authorize_url: http://orcid.org/oauth/authorize?show_login=true
   token_url: http://pub.orcid.org/oauth/token
   client_id: <%= ENV["ORCID_KEY"] %>
